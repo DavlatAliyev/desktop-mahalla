@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.constants.OnConflict" />
+          <option value="django.db.models.utils.AltersData" />
+          <option value="django.utils.deprecation.RemovedInDjango50Warning" />
+          <option value="portfolio.models.MyInfo.objects" />
+          <option value="portfolio.models.PersonalInfo.objects" />
+          <option value="portfolio.models.MyExpertise.objects" />
+          <option value="enum.Enum.choices" />
+          <option value="backend.models.advenced.models.Person.get_shirt_size_display" />
+          <option value="backend.models.advenced.models.Person.shirt_size" />
+          <option value="backend.models.advenced.models.site" />
+          <option value="backend.models.advenced.models.date" />
+          <option value="backend.models.advenced.models.beatles" />
+          <option value="backend.models.advenced.models.*" />
+          <option value="project.com.experience.views.index" />
+          <option value="project.com.experience.models.Question.objects" />
+          <option value="project.com.experience.views.loader" />
+          <option value="project.com.experience.models.Question.DoesNotExist" />
+          <option value="project.com.experience.views.detail" />
+          <option value="project.com.experience.views.reverse" />
+          <option value="project.com.experience.models.Choice.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
